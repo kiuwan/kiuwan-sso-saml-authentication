@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<display-name>Kiuwan SSO with SAML</display-name>
+
+	<!-- Define a Security Constraint on this Application -->
+	<security-constraint>
+		<web-resource-collection>
+			<web-resource-name>SAML SSO Application</web-resource-name>
+			<url-pattern>/profile.jsp</url-pattern>
+		</web-resource-collection>
+		<auth-constraint>
+			<role-name>user</role-name>
+		</auth-constraint>
+	</security-constraint>
+
+
+	<login-config>
+		<auth-method>KEYCLOAK-SAML</auth-method>
+	</login-config>
+	
+
+	<security-role>
+		<role-name>user</role-name>
+	</security-role>
+
+
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>
