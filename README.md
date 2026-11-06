@@ -1,4 +1,9 @@
-# kiuwan-local-authentication
-https://www.kiuwan.com/blog/how-to-configure-kiuwan-authentication-with-your-own-ldap-service
+# kiuwan-sso-saml-authentication
 
-This application is a derived version of https://github.com/kiuwan/kiuwan-local-authentication using SAML and KEYCLOAK.
+> **This repository has moved to a new public location.**
+
+The source code for this project is now maintained at:
+
+## [https://github.com/sembi-oss/kiuwan-sso-saml-authentication](https://github.com/sembi-oss/kiuwan-sso-saml-authentication)
+
+Please update your bookmarks, forks, and any references to point to the new address.
